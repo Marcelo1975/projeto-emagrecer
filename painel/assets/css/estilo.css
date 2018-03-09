@@ -1,0 +1,421 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #999;
+}
+.button-small{
+	width:100px;
+	height: 20px;
+	background-color: #FF0000;
+}
+.top{
+	width: 100%;
+	height: 80px;
+	background-color: #337ab7;
+	position: fixed;
+}
+.menu-mobile{
+	margin-top:20px;
+	cursor: pointer;
+	position: relative;
+	display: none;
+}
+.top ul{
+	float:right;
+	margin-right: 30px;
+	line-height: 80px;
+	list-style: none;
+}
+.top a{
+	color:#fff;
+	font-weight: bold;
+}
+.left-menu{
+	float: left;
+	background-color: #337ab7;
+	width: 250px;
+	height: 100%;
+	position: fixed;
+	margin-top: 50px;
+}
+.left-menu ul{
+	list-style: none;
+	margin-left: 10px;
+}
+.left-menu li{
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	padding-left: 30px;
+	background-size: 15px 15px;
+	background-repeat: no-repeat;
+	background-position: 10px 15px;
+}
+.left-menu a{
+	color:#fff;
+	display: block;
+}
+.left-menu ul li a:hover{
+	text-decoration: none;
+	color: #000;
+}
+.left-menu li:nth-child(1){
+	background-image: url('../images/ico/home.png');
+}
+.left-menu li:nth-child(2){
+	background-image: url('../images/ico/post-it.png');
+}
+.left-menu li:nth-child(3){
+	background-image: url('../images/ico/post-it1.png');
+}
+.left-menu li:nth-child(4){
+	background-image: url('../images/ico/picture.png');
+}
+.left-menu li:nth-child(5){
+	background-image: url('../images/ico/receit.png');
+}
+.left-menu li:nth-child(6){
+	background-image: url('../images/ico/exercise.png');
+}
+.left-menu li:nth-child(7){
+	background-image: url('../images/ico/users-group.png');
+}
+.left-menu li:nth-child(8){
+	background-image: url('../images/ico/senha.png');
+}
+.left-menu li:nth-child(9){
+	background-image: url('../images/ico/sair.png');
+}
+.container .loginpainel{
+	width: 100%;
+	height: 500px;
+	margin-top: 50px;
+}
+.container .loginpainel form{
+	padding-left: 30%;
+	padding-top: 50px;
+}
+.container .loginpainel input[type=text],
+.container .loginpainel input[type=email],
+.container .loginpainel input[type=password],
+.container .loginpainel input[type=submit]{
+	width: 400px;
+	height: 50px;
+	border-radius: 10px;
+	outline: none;
+}
+.container .loginpainel input[type=submit]{
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #ccc;
+}
+.container .loginpainel input[type=submit]:hover{
+	background-color: #333;
+	color: #fff;
+}
+.painel{
+	width: 100%;
+}
+.painel img{
+	width: 50%;
+	margin-top: 20px;
+}
+.top h2{
+	margin-left: 50px;
+	color: #fff;
+}
+.nameuser{
+	position: relative;
+	float:right; 
+	margin-right:5%;
+	color: #fff;
+	line-height: 80px;
+}
+@media all and (max-width: 1655px) and (min-width: 1375px){
+	.container.principal{
+		width: 100%;
+		padding-left: 30px;
+	}
+	.container.painel{
+		width: 80%;
+		padding-left:80px;
+	}
+	.container.postsadd{
+		padding-left: 50px;
+	}
+	.container.allposts{
+		padding-left: 50px;
+	}
+	.container.fotoadd{
+		padding-left: 50px;
+	}
+	.container.receitaadd{
+		padding-left: 50px;
+	}
+	.container.exeradd{
+		padding-left: 50px;
+	}
+	.container.editpassword{
+		padding-left: 80px;
+	}
+}
+@media all and (max-width: 1375px){
+	.container.principal{
+		width: 80%;
+		padding-left: 50px;
+	}
+	.container.textopanel{
+		width: 80%;
+	}
+	.container.painel{
+		width: 80%;
+		padding-left:80px;
+	}
+	.container.postsadd{
+		padding-left: 50px;
+	}
+	.container.allposts{
+		padding-left: 50px;
+	}
+	.container.fotoadd{
+		padding-left: 50px;
+	}
+	.container.receitaadd{
+		padding-left: 50px;
+	}
+	.container.exeradd{
+		padding-left: 50px;
+	}
+	.container footer{
+		width: 80%;
+	}	
+	.container.editpassword{
+		padding-left: 20%;
+	}
+}
+@media all and (max-width: 1110px){
+	.container.principal{
+		width: 80%;
+		padding-left: 50px;
+	}
+	.container.textopanel{
+		width: 80%;
+		padding-left: 30px;
+	}
+	.container.painel{
+		width: 80%;
+		padding-left:80px;
+	}
+	.container.postsadd{
+		padding-left: 50px;
+	}
+	.container.allposts{
+		padding-left: 50px;
+	}
+	.container.fotoadd{
+		padding-left: 50px;
+	}
+	.container.receitaadd{
+		padding-left: 50px;
+	}
+	.container.exeradd{
+		padding-left: 50px;
+	}
+	.container footer{
+		width: 80%;
+	}	
+	.container.editpassword{
+		padding-left: 20%;
+	}
+}
+@media all and (max-width: 1024px){
+	.container.principal{
+		width: 80%;
+		padding-left: 70px;
+	}
+	.container.textopanel{
+		width: 80%;
+		padding-left: 30px;
+	}
+	.container.painel{
+		width: 80%;
+		padding-left:80px;
+	}
+	.container.postsadd{		
+		padding-left: 30%;
+	}
+	.container.allposts{		
+		padding-left: 20%;
+	}
+	.container.fotoadd{
+		padding-left: 20%;
+	}
+	.container.receitaadd{
+		padding-left: 20%;
+	}
+	.container.exeradd{
+		padding-left: 30%;
+	}
+	.container footer{
+		width: 70%;
+	}
+	.container.editpassword{
+		padding-left: 30%;
+	}
+}
+@media all and (max-width: 880px){
+	.container.principal{
+		width: 100%;
+		padding-left: 90px;
+	}
+	.left-menu{
+		position: relative;
+		width: 200px;
+		margin-top: -30px;
+	}
+	.left-menu li{
+		margin-left: 10px;
+	}
+	.left-menu li{
+		height: 50px;
+		line-height: 50px;
+		font-size: 14px;
+		padding-left: 30px;
+		background-size: 15px 15px;
+		background-repeat: no-repeat;
+		background-position: 10px 15px;
+	}
+	.left-menu ul{
+		display: none;
+	}
+	.menu img{
+		display: block;
+		margin-top: -60px;
+		position: relative;
+		z-index: 9;
+	}
+	.top{
+		position: relative;
+	}
+	.nameuser{
+		position: relative;
+		float:right; 
+		margin-right:20px;
+		margin-top: -80px;
+		color: #fff;
+		line-height: 80px;
+	}
+	.container.textopanel{
+		width: 80%;
+		padding-left: 30px;
+	}
+	.container.painel{
+		width: 80%;
+		padding-left:80px;
+	}
+	.container.postsadd{
+		padding-left: 50px;
+	}
+	.container.allposts{
+		padding-left: 50px;
+	}
+	.container.fotoadd{
+		padding-left: 50px;
+	}
+	.container.receitaadd{
+		padding-left: 50px;
+	}
+	.container.exeradd{
+		padding-left: 50px;
+	}
+	.container footer{
+		width: 100%;
+		padding-left: 15%;
+	}
+	.container.editpassword{
+		padding-left: 20%;
+	}
+}
+@media all and (max-width: 680px){
+	.menu.left-menu{
+		width: 200px;
+	}
+	.left-menu{
+		position: relative;
+		width: 200px;
+		margin-top: -30px;
+	}
+	.left-menu li{
+		margin-left: 10px;
+	}
+	.left-menu li{
+		height: 50px;
+		line-height: 50px;
+		font-size: 14px;
+		padding-left: 30px;
+		background-size: 15px 15px;
+		background-repeat: no-repeat;
+		background-position: 10px 15px;
+	}
+	.left-menu ul{
+		display: none;
+	}
+	.menu img{
+		display: block;
+		margin-top: -60px;
+		position: absolute;
+		z-index: 9;
+	}
+	.top{
+		position: relative;
+	}
+	.nameuser{
+		position: relative;
+		float:right; 
+		margin-right:20px;
+		margin-top: -80px;
+		color: #fff;
+		line-height: 80px;
+	}
+	.container.principal{
+		width: 80%;
+		padding-left: 10%;
+	}
+	.container.textopanel{
+		width: 80%;
+		padding-left: 30px;
+	}
+	.container.painel{
+		width: 80%;
+		padding-left:80px;
+	}
+	.container.postsadd{
+		padding-left: 50px;
+	}
+	.container.allposts{
+		padding-left: 50px;
+	}
+	.container.fotoadd{
+		padding-left: 50px;
+	}
+	.container.receitaadd{
+		padding-left: 50px;
+	}
+	.container.exeradd{
+		padding-left: 50px;
+	}
+	.container.usernew{
+		width: 100%;
+	}
+	.container.usernew.loginpainel{
+		width: 100%;
+	}
+	#inuptadd{
+		width: 100%;
+		height: 30px;
+	}
+	.container footer{
+		width: 100%;
+		padding-left: 25%;
+	}
+}
